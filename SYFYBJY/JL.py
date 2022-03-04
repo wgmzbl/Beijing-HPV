@@ -1,3 +1,4 @@
+#coding=utf-8
 import os
 import re
 import time
@@ -19,12 +20,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 '
                   'Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63030532)',
     'Host': 'sych.xiaoerfang.cn',
-    "Cookie": "_csrf=9133752109ef502c887da9c6ced273f981a89aeee34932eb33f7156eed9389fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A"
-              "%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MsQiC1t36K_kE5oRksbquHFUmZapKS00%22%3B%7D; "
-              "PHPSESSID=fesorlm206odi5qbg6nhuki0sm; "
-              "_identity=7d042ddbddc61566b1a8bfc98321906b4af3d0a8da2737e9ce55cfa90c0b9cf4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A"
-              "%22_identity%22%3Bi%3A1%3Bs%3A53%3A%22%5B%22433796%22%2C%22sBETxTqvITVgM7jcZJCL9_BBjfK76_eh%22"
-              "%2C2592000%5D%22%3B%7D",
+    "Cookie": "_csrf=b05b2a8ec1d4798f7b0a117ae658e9678eb6149a149e4a37bc7263f92019c884a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dGIc-TLvQVLgYJ-RtkqDxEdH4sRf6QHl%22%3B%7D; PHPSESSID=om19job286h88f8422qtnjq8v3; _identity=bd422975416e8c186d1e4b62a7fde42fa120a3629a05337b10018f49178c8707a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A53%3A%22%5B%22535310%22%2C%22gyp9lw6NkBa6Fr8EvZAThgHqdRm4TBEx%22%2C2592000%5D%22%3B%7D",
 }
 # 九价疫苗余量日期查询URL
 dataurl = "https://sych.xiaoerfang.cn/sychwx/index.php?r=source%2Flist&specCode=442&specName=%E7%96%AB%E8%8B%97%E6%8E%A5%E7%A7%8D%E9%97%A8%E8%AF%8A&deptType=0&oneDeptId=285&twoDeptId=442&visitDate="
